@@ -13,6 +13,7 @@
 
 # 购买域名（加续费全网最低！！！COM域名：$10/y）
 
+
 ## 已有域名（其它域名注册商）设置DNS服务器
 
 ![image.png](https://repo.in4tree.com/2026/01/14_1768456416728.png)
@@ -65,16 +66,29 @@
 ![image.png](https://repo.in4tree.com/2026/01/14_1768457704668.png)
 
 
+## 认证授权：原有域名的联系邮箱会收到确认的Email
+
+### 如果原来的邮箱已经无法登录，则需要更改为新的联系邮箱（此时需要等待60天才能继续转移域名！）
+
+![image.png](https://repo.in4tree.com/2026/01/16_1768624969563.png)
+
+
+> 注意：一定要选择第一项！避免使用原来邮箱确认！此时，必须等待60天才能继续转移域名！
+
+![image.png](https://repo.in4tree.com/2026/01/16_1768625028857.png)
+
+
 # 【参考】
 
-Cloudflare如何转移域名
+## Cloudflare如何转移域名
 https://www.cloudflare.com/zh-cn/learning/dns/how-to-transfer-a-domain-name/#confirmcontactinformation
 
 
-https://lookup.icann.org/en/lookup
+## https://lookup.icann.org/en/lookup
 ![image.png](https://repo.in4tree.com/2026/01/14_1768455975040.png)
 
-https://www.whatsmydns.net/
+
+## https://www.whatsmydns.net/
 ![image.png](https://repo.in4tree.com/2026/01/14_1768455920723.png)
 
 
