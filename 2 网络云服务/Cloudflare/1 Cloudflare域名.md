@@ -8,10 +8,10 @@
 
 ---
 
+# 购买域名（加续费全网最低！！！COM域名：$10/y）
+
 
 ![image.png](https://repo.in4tree.com/2026/01/14_1768455360901.png)
-
-# 购买域名（加续费全网最低！！！COM域名：$10/y）
 
 
 ## 已有域名（其它域名注册商）设置DNS服务器
@@ -31,6 +31,8 @@
 
 ![image.png](https://repo.in4tree.com/2026/01/14_1768456663400.png)
 
+
+---
 
 # 转入域名（有效期延长一年！！！COM域名：$10/y）
 
@@ -83,6 +85,16 @@ Look for an email from your previous registrar or an option in their dashboard t
 
 Please note that the domain has now entered a 60 day transfer lock. During this period, the domain cannot be transferred to another Registrar.
 
+
+---
+
+# SSL
+
+![image.png](https://repo.in4tree.com/2026/03/06_1772843570422.png)
+
+
+
+---
 
 # 【参考】
 

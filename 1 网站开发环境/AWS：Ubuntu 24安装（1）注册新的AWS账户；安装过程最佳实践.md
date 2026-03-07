@@ -27,13 +27,14 @@ https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-closing.html
 
 
 
-# **==注册新的AWS账户（可1年内每月免费750小时）==**
+# **==注册新的AWS账户（~~可1年内每月免费750小时~~）==**
 
 ![Ubuntu24安装（1）注册新的AWS账户；安装过程最佳实践](https://repo.in4tree.com/2026/01/14_1768462764604.jpeg)
 
 
 ![image.png](https://repo.in4tree.com/2026/02/23_1771919090662.png)
 
+![image.png](https://repo.in4tree.com/2026/03/06_1772824931084.png)
 
 
 ## **MFA安全登录**
