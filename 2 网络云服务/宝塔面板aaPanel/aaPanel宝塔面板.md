@@ -42,6 +42,8 @@ https://34.220.185.236:30302/
 
 ## 80端口转向443端口，强制HTTPS
 
+https://gemini.google.com/app/928b1b64660bf70e
+
 
 ---
 
