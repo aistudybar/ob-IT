@@ -44,6 +44,12 @@ https://34.220.185.236:30302/
 
 https://gemini.google.com/app/928b1b64660bf70e
 
+## 选择证书
+
+![image.png](https://repo.in4tree.com/2026/03/14_1773528229942.png)
+
+
+
 
 ---
 

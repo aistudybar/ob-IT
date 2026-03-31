@@ -1,0 +1,37 @@
+
+注意：安装前请务必备份数据 (使用Time Machine)
+
+## 不同芯片的开机按键
+
+- **Intel Mac**: 开机按住 `Command-R` 进入恢复模式。
+- **Apple Silicon (M1/M2/M3) Mac**: 长按电源键进入启动选项，选择“选项” > “继续”。 ![Apple Support](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAD60lEQVR4nO3bbajecxzH8dfZMZoxiiGUdAjbQm4XtigRuXniNmsm4QGteXRNoUzUMaklMgkNDyiWlXCmSG6aMlqRB9ukMDY3x91hJpcHv2s5O87N9bv5X/9L57zr36n///re/D7nd/1/39/N1dNsNk1mptWdQN3sFfPh/v7+qvIYjRNxOU7DHfi0HaNGoxEVJEqADjEPK3AZelv3HqoqWLcJcBeWY99h95r4qaqA3STA47hplPu/4tuqgnbLS3CF0RsPH+GbqgJ3gwDnCl1/LJ4UvgaVULcAvRhvaNmIF6pMoG4BzmhdY9HA71UmULcA147zbDneqDqBOkeBHpw1xrNlWNWJJOrsATNx5Ih7b+NCHWo89faAXcIQN7v193kd6PIjqUKAOZiLQ7APfsEWfGjPim4nLvbfIW4GTscJOFyoCv/ADmxu+SlWGJUSYBoWC8XMmf6t4YfzFV7EGqER7Nn4eViEK9A3Tqzv8DIexGdZWSsjwHxhLF84weeOwFLcijexVugZRwkTnwswvY14B+NGXIn7sFJGoZQrwBKhhm8n8d304vzWlcMsQfhThd63M8VJjgA3CGVq3Vwl9IAlwrsiitRhcD4eS7StgnNwUIphigAzsRp7pwSsgHdxtvCSjSblK3C9sFzVDWzARcJQm0RsD5hu7Hl7p9mGq2U0nngBFuLknIAFaeCLXCexAlyaG7AQW4SiKptYARaUCFqApzBUwlGsAEeXCJpJE+tLOYsV4IBSgTP4EVtLOYsVoO4VJPhZ5pt/ON3QoFh6WlcR/o8CzML+pZzFCvB3qcAZHIhjSzmLFeC3UoEz6BHWDooQK8C2UoEzWYT9SjiKFSB7CaoQfbiuhKNYATaUCFqIe4QF2CxiBXgrN2BBDsU6HJbjJFaAjxWYgRWkD6/hlFQHsQIM4ZXUYBVxEt7BncImSxQphdBAgk3VzMC9uC3WMEWA9fg8wa4TvB5rkCLAEJ5IsKua9/B+rFHqXOBRfJ1oWxX3S9ghShVgEE8n2lbBJryaYpgzG1yp4MJEJndLnKjlCDCI2zPsS7FW2C1OInc9YB2eyfSRw/fCjnMyJRZElqpvkrQMX+Y4KCHAoDAzi96ZzeQBPJvrpNSS2EbcUshXOwwY/3Rp25Q8I7RGKEkfMfoRmd3sEnZ0PxDOAP8lLLfPwXkmnt29JJwF+DMv3UDpQ1KrhTJ5FY4f8Ww7nhPqh01j2M/GNbhZODM0nB+Ec0H9Cq5NVnFKbED4T16CY4RktwprCZsnsN2Bh4Xv9gIcJ5wS2y6cIfykdLI9Uz+amuRMCVB3AnUzJUDdCdTNlAB1J1A3UwLUnUDdTHoB/gFLx6Ni4xGRFQAAAABJRU5ErkJggg==)Apple Support +1
+
+
+---
+## 方法一：使用 macOS 恢复功能（最简便，无需U盘）
+
+1. **进入恢复模式**：
+    - **Intel芯片Mac**：开机立即按住 `Command (⌘) + R`，直至出现Apple标志。
+    - **Apple芯片(M1/M2/M3)Mac**：按住电源键不松手，直到看到“正在载入启动选项”。
+2. **抹掉磁盘（全新安装可选）**：
+    - 选择“磁盘工具” > “继续”。
+    - 选择内部硬盘（通常叫 Macintosh HD），点击顶部工具栏的“抹掉”。
+    - 格式选择 **APFS** (如果较旧系统选 Mac OS 扩展日志式)，点击“抹掉卷宗组”。
+3. **重新安装 macOS**：
+    - 关闭磁盘工具，回到实用工具窗口。
+    - 选择“重新安装 macOS” > “继续”，按屏幕提示操作（需连接Wi-Fi）。 ![Apple Support](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAD60lEQVR4nO3bbajecxzH8dfZMZoxiiGUdAjbQm4XtigRuXniNmsm4QGteXRNoUzUMaklMgkNDyiWlXCmSG6aMlqRB9ukMDY3x91hJpcHv2s5O87N9bv5X/9L57zr36n///re/D7nd/1/39/N1dNsNk1mptWdQN3sFfPh/v7+qvIYjRNxOU7DHfi0HaNGoxEVJEqADjEPK3AZelv3HqoqWLcJcBeWY99h95r4qaqA3STA47hplPu/4tuqgnbLS3CF0RsPH+GbqgJ3gwDnCl1/LJ4UvgaVULcAvRhvaNmIF6pMoG4BzmhdY9HA71UmULcA147zbDneqDqBOkeBHpw1xrNlWNWJJOrsATNx5Ih7b+NCHWo89faAXcIQN7v193kd6PIjqUKAOZiLQ7APfsEWfGjPim4nLvbfIW4GTscJOFyoCv/ADmxu+SlWGJUSYBoWC8XMmf6t4YfzFV7EGqER7Nn4eViEK9A3Tqzv8DIexGdZWSsjwHxhLF84weeOwFLcijexVugZRwkTnwswvY14B+NGXIn7sFJGoZQrwBKhhm8n8d304vzWlcMsQfhThd63M8VJjgA3CGVq3Vwl9IAlwrsiitRhcD4eS7StgnNwUIphigAzsRp7pwSsgHdxtvCSjSblK3C9sFzVDWzARcJQm0RsD5hu7Hl7p9mGq2U0nngBFuLknIAFaeCLXCexAlyaG7AQW4SiKptYARaUCFqApzBUwlGsAEeXCJpJE+tLOYsV4IBSgTP4EVtLOYsVoO4VJPhZ5pt/ON3QoFh6WlcR/o8CzML+pZzFCvB3qcAZHIhjSzmLFeC3UoEz6BHWDooQK8C2UoEzWYT9SjiKFSB7CaoQfbiuhKNYATaUCFqIe4QF2CxiBXgrN2BBDsU6HJbjJFaAjxWYgRWkD6/hlFQHsQIM4ZXUYBVxEt7BncImSxQphdBAgk3VzMC9uC3WMEWA9fg8wa4TvB5rkCLAEJ5IsKua9/B+rFHqXOBRfJ1oWxX3S9ghShVgEE8n2lbBJryaYpgzG1yp4MJEJndLnKjlCDCI2zPsS7FW2C1OInc9YB2eyfSRw/fCjnMyJRZElqpvkrQMX+Y4KCHAoDAzi96ZzeQBPJvrpNSS2EbcUshXOwwY/3Rp25Q8I7RGKEkfMfoRmd3sEnZ0PxDOAP8lLLfPwXkmnt29JJwF+DMv3UDpQ1KrhTJ5FY4f8Ww7nhPqh01j2M/GNbhZODM0nB+Ec0H9Cq5NVnFKbED4T16CY4RktwprCZsnsN2Bh4Xv9gIcJ5wS2y6cIfykdLI9Uz+amuRMCVB3AnUzJUDdCdTNlAB1J1A3UwLUnUDdTHoB/gFLx6Ni4xGRFQAAAABJRU5ErkJggg==)Apple Support +2
+
+
+---
+
+## 方法二：使用 USB 启动盘安装（适合升级/降级/离线）
+
+1. **准备工作**：准备一个16GB以上U盘，并在App Store下载所需的macOS安装程序。
+2. **制作启动盘**：
+    - 将U盘插入Mac，打开“磁盘工具”，将U盘格式化为 **Mac OS 扩展（日志式）**，命名为 `MyVolume`。
+    - 打开“终端”（Terminal），输入以下命令（以Sonoma为例）并回车，输入密码：  
+        `sudo /Applications/Install\ macOS\ Sonoma.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume`。
+3. **从U盘安装**：
+    - 插入制作好的U盘，开机按住 `Option` 键，选择安装盘启动，之后步骤同方法一。 ![Apple Support](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAD60lEQVR4nO3bbajecxzH8dfZMZoxiiGUdAjbQm4XtigRuXniNmsm4QGteXRNoUzUMaklMgkNDyiWlXCmSG6aMlqRB9ukMDY3x91hJpcHv2s5O87N9bv5X/9L57zr36n///re/D7nd/1/39/N1dNsNk1mptWdQN3sFfPh/v7+qvIYjRNxOU7DHfi0HaNGoxEVJEqADjEPK3AZelv3HqoqWLcJcBeWY99h95r4qaqA3STA47hplPu/4tuqgnbLS3CF0RsPH+GbqgJ3gwDnCl1/LJ4UvgaVULcAvRhvaNmIF6pMoG4BzmhdY9HA71UmULcA147zbDneqDqBOkeBHpw1xrNlWNWJJOrsATNx5Ih7b+NCHWo89faAXcIQN7v193kd6PIjqUKAOZiLQ7APfsEWfGjPim4nLvbfIW4GTscJOFyoCv/ADmxu+SlWGJUSYBoWC8XMmf6t4YfzFV7EGqER7Nn4eViEK9A3Tqzv8DIexGdZWSsjwHxhLF84weeOwFLcijexVugZRwkTnwswvY14B+NGXIn7sFJGoZQrwBKhhm8n8d304vzWlcMsQfhThd63M8VJjgA3CGVq3Vwl9IAlwrsiitRhcD4eS7StgnNwUIphigAzsRp7pwSsgHdxtvCSjSblK3C9sFzVDWzARcJQm0RsD5hu7Hl7p9mGq2U0nngBFuLknIAFaeCLXCexAlyaG7AQW4SiKptYARaUCFqApzBUwlGsAEeXCJpJE+tLOYsV4IBSgTP4EVtLOYsVoO4VJPhZ5pt/ON3QoFh6WlcR/o8CzML+pZzFCvB3qcAZHIhjSzmLFeC3UoEz6BHWDooQK8C2UoEzWYT9SjiKFSB7CaoQfbiuhKNYATaUCFqIe4QF2CxiBXgrN2BBDsU6HJbjJFaAjxWYgRWkD6/hlFQHsQIM4ZXUYBVxEt7BncImSxQphdBAgk3VzMC9uC3WMEWA9fg8wa4TvB5rkCLAEJ5IsKua9/B+rFHqXOBRfJ1oWxX3S9ghShVgEE8n2lbBJryaYpgzG1yp4MJEJndLnKjlCDCI2zPsS7FW2C1OInc9YB2eyfSRw/fCjnMyJRZElqpvkrQMX+Y4KCHAoDAzi96ZzeQBPJvrpNSS2EbcUshXOwwY/3Rp25Q8I7RGKEkfMfoRmd3sEnZ0PxDOAP8lLLfPwXkmnt29JJwF+DMv3UDpQ1KrhTJ5FY4f8Ww7nhPqh01j2M/GNbhZODM0nB+Ec0H9Cq5NVnFKbED4T16CY4RktwprCZsnsN2Bh4Xv9gIcJ5wS2y6cIfykdLI9Uz+amuRMCVB3AnUzJUDdCdTNlAB1J1A3UwLUnUDdTHoB/gFLx6Ni4xGRFQAAAABJRU5ErkJggg==)Apple Support +1
+
+
